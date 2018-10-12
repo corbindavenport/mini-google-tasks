@@ -1,0 +1,78 @@
+/* Use system font across entire web app */
+
+body, .e, .goog-menu, input, textarea {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+
+/* Hide "My Tasks" bar at top */
+
+.Ub {
+    display: none;
+}
+div[id=":0.fc"] {
+    padding-bottom: 25px;
+}
+
+/* Add padding to elements and menus */
+
+.e, .A, .y {
+    padding: 10px !important;
+}
+.goog-menuitem-content {
+    padding: 5px !important;
+}
+.s {
+    margin: 0 !important;
+}
+.K {
+    margin: 10px 5px 10px 10px !important;
+}
+
+/* Task info */
+
+textarea[id=":p.task-editor"] {
+    border: 1px solid #ccc !important;
+    width: calc(100% - 22px) !important;
+    font-weight: bold !important;
+}
+input, textarea, div[id=":q"] {
+    padding: 8px !important;
+    outline: initial !important;
+}
+.goog-flat-menu-button-dropdown {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.M .y:first-of-type {
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    color: #0087ff !important;
+}
+.ec .A, .M .y:last-of-type {
+    display: none !important;
+}
+
+/* Task date field */
+
+.fc div {
+    display: inline-block !important;
+    float: none !important;
+    vertical-align: middle !important;
+}
+.Bb {
+    width: calc(100% - 50px) !important;
+    max-width: none !important
+}
+input[id=":p.due-date-editor"] {
+    width: 100% !important;
+}
+.z, .u {
+    margin-left: 10px;
+}
+
+/* Make drag icon larger */
+
+.n {
+    margin-left: 5px;
+}
