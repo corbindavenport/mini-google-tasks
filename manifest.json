@@ -1,16 +1,17 @@
 {
 	"manifest_version": 2,
 	"name": "Mini Google Tasks",
-	"version": "1.0",
+	"version": "2.0",
 	"author": "Corbin Davenport",
 	"description": "Open Google Tasks from your browser's toolbar and sidebar.",
+	"homepage_url": "https://github.com/corbindavenport/mini-google-tasks",
 	"content_scripts": [
 		{
 			"matches": [
 				"https://mail.google.com/tasks/ig"
 			],
-			"css": [
-				"tasks.css"
+			"js": [
+				"tasks.js"
 			],
 			"run_at": "document_end",
 			"all_frames": true
@@ -30,5 +31,8 @@
 		"16": "img/icon16.png",
 		"19": "img/icon19.png",
 		"128": "img/icon128.png"
-	}
+	},
+	"web_accessible_resources": [
+		"tasks.css"
+	]
 }
