@@ -1,4 +1,4 @@
-# mini-google-tasks
+# Mini Google Tasks
 
 This extension adds a Google Tasks button to your browser's sidebar (Chrome & Firefox only) and toolbar. This uses [the old Gmail tasks widget](https://mail.google.com/tasks/ig), but with added CSS styles to make it more responsive and better-looking.
 
